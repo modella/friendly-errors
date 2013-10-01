@@ -1,0 +1,13 @@
+{
+  "name": "modella-friendly-errors",
+  "repo": "modella/friendly-errors",
+  "description": "Friendly error messages for modella",
+  "version": "0.1.0",
+  "keywords": [],
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

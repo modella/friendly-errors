@@ -1,0 +1,20 @@
+{
+  "name": "modella-friendly-errors",
+  "version": "0.2.0",
+  "description": "Friendly error messages for modella",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/modella/friendly-errors.git"
+  },
+  "keywords": [
+    "modella",
+    "errors"
+  ],
+  "author": "Ryan Schmukler <ryan@slingingcode.com>",
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "devDependencies": {
+    "modella": "~0.1.6"
+  }
+}
