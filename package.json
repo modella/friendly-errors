@@ -1,6 +1,6 @@
 {
   "name": "modella-friendly-errors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Friendly error messages for modella",
   "main": "index.js",
   "repository": {

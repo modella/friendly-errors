@@ -16,9 +16,14 @@ module.exports = function(Model) {
     var errors = this.friendlyErrors();
     var messages = [];
     errors.forEach(function(error) {
-      var name = error.friendlyName ? error.friendlyName : (error.attr.charAt(0).toUpperCase() + error.attr.slice(1));
+      var name;
+      if(error.friendlyName) {
+        name = friendlyName;
+      } else {
+        name = (error.attr.charAt(0).toUpperCase() + error.attr.slice(1)).replace(/\./g, '');
+      }
       messages.push(name + " " + error.message);
+      return messages;
     });
-    return messages;
   };
 };
